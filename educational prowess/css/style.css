@@ -1,0 +1,240 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 7, 2018, 12:43:12 AM
+    Author     : jerry
+*/
+ol {
+    font-family: Georgia Regular;
+    font-size: 13px;
+    height: 65px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f6f6f6;
+}
+
+li {
+
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: #660000;
+    text-align: center;
+    padding: 22px 24px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: #242424 ;
+}
+a
+{
+    color: #E74853;
+}
+a:hover
+{
+    color: red;
+}
+.wrap1
+{
+    width: 312px;height: 85px;
+    background: #460000;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 22px;
+    font-family: 
+        Georgia Regular;}
+.wrap2
+{
+    width: 312px;
+    height: 85px;
+    background: #460000;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 22px;
+    font-family: Georgia Regular;
+    margin-top: 20px;}
+h1
+{
+    font-size: 32px;
+    font-family: Georgia Regular;
+    color: #fcfcfc;
+    padding-top: 10px;
+}
+h2
+{ 
+    padding-top: 30px;
+    font-size: 16px;
+    font-family:Georgia Regular;
+}
+h3
+{
+    padding-top: 30px;
+    font-size: 16px;
+    font-family:Georgia Regular;
+}
+h4
+{
+    font-size: 13px;
+    font-family: Georgia Regular;
+    color: #979797;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+h5
+{
+    font-family:Georgia Regular;
+    color: #979797;
+    font-size: 16px;
+    padding-top: 40px;}
+h6
+{
+    font-size: 16px;
+    font-family: Georgia Regular;
+    color: #333333;
+    padding-top: 20px;
+}
+h7
+{
+    font-size: 22px;
+    font-family: Georgia Regular;
+    color: white;
+}
+.wrap
+{
+    width: 80px;
+    height: 80px;
+    border: 5px solid white;
+    background: black;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-style: double;
+}
+.box
+{
+    width: 312px;
+    height: 110px;
+    border: 1px solid;
+}
+.w3-right
+{
+    padding-left: 10px;
+    float: left;
+    color:#ff4646;
+}
+.box2
+{
+    width: 312px;
+    height: 133px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+.list
+{
+    color: #ff4646;
+    font-size: 13px;
+    font-family: Georgia Regular;
+}
+.list1
+{
+    color: #ff4646;
+    font-size: 13px;
+    font-family: Georgia Regular;
+    padding-top: 40px;
+    border-top: 1px solid graytext;
+}
+.box3
+{
+    width: 312px;
+    height: 250px;
+    border-top: 1px solid;
+    padding-top: 20px;
+}
+
+ul 
+{
+    list-style-type: none;
+}
+
+
+.month {
+    padding: 25px 25px;
+    text-align: center;
+    border-top: 1px solid;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: black;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 5px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 5px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+
+}
+
+.weekdays li {
+
+    display: inline-block;
+    width: 13.6%;
+    color: black;
+    text-align: center;
+}
+li {
+    float: left;
+    border-right:0px solid #bbb;
+}
+
+.days {
+    padding: 10px 0;
+    border-collapse: collapse;
+
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: black;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #d8d8d8;
+    color: black !important;
+}
